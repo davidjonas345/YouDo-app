@@ -10,7 +10,29 @@
 </head>
 
 <body>
-  <!-- YOUR HTML -->
+
+  <div class="main-conatainer">
+    <h1>Todo List</h1>
+    <form class="todosform">
+      <input class="todoInput" type="text" name="todoInput" placeholder="Your ToDo"><br><br>
+      <label for="due-date">Due Date:</label>
+      <input type="date" id="due-date" name="formdate"" required><br>
+      <label for="priority">Select the priority of the task: </label>
+      <select name="priority" id="priority" size="1" required>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+      <input type="submit" class="addTodo" name="add" value="Create" disabled>
+      <div class="feedback"></div>
+      <br>
+
+    </form>
+
+    <ul class="todoslist">
+
+    </ul>
+  </div>
   
   <script src="js/scripts.js"></script>
 </body>

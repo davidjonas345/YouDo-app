@@ -1,1 +1,6 @@
-/* Your styles */
+.validtext {
+   background-color: lightgreen;
+}
+.notvalidtext {
+    border-color:  red;
+}
